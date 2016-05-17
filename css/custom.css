@@ -1,0 +1,325 @@
+body {
+
+	background: #17171b;
+	font-family: 'Roboto', sans-serif;
+	width: 100%;
+	height: auto;
+
+}
+
+.eager-share-app-icon-share i{
+
+	position: relative;
+
+}
+
+/* MAIN HEADER */
+
+.main-header {
+
+	display: block;
+	background-image: linear-gradient(rgba(12,32,46,0.5), rgba(12,32,46,0.5)),url(/bg.jpg);
+	    background-size: cover;
+    background-attachment: fixed;
+    height: 610px;
+    width: auto;
+
+
+ background-position: bottom right,
+                       left,
+                       right;
+
+}
+
+/* TOP HEADER */
+
+.link-button{width:150px;background:none;text-transform:uppercase;color:#ff5242;border:0.16667em solid currentColor;padding:1em 1.34em;margin:.5em 0;display:inline-block;font-weight:400;transition:color .3s, background-color .3s}
+.link-button:hover,.link-button.-active{background-color:#ff5242;color:#fff;border-color:#ff5242}
+
+.navtext {
+
+padding-top: 30px;
+
+}
+
+.navtext a{
+
+	color: #fff;
+	transition:color .3s, background-color .3s;
+
+}
+
+
+.navtext a:hover {
+
+	color: #ff5242;
+
+}
+
+.navspace {
+
+	padding-right: 50px;
+
+}
+
+.top-header a {
+
+	text-decoration: none;
+	text-transform: uppercase;
+	cursor: pointer;
+	font-weight: 300;
+
+}
+
+.top-header ul li {
+
+	list-style-type: none;
+	display: inline;
+
+}
+
+.top-header>.inner {
+
+	width: 1280px;
+    padding: 10px 10px;
+    display: -webkit-flex;
+    margin: 0 auto;
+    padding-top: 30px;
+
+
+}
+
+.search {
+
+	padding-right: 50px;
+
+}
+
+.nav {
+
+	padding-left: 285px;
+
+}
+
+.top-header {
+
+    font-size: 24px;
+    width: auto;
+    position: relative;
+    background: rgba(24, 34, 43, 0);
+    top:0;
+    left:0;
+    z-index:1;
+
+}
+
+/* WRAP HEADER */
+
+.landing-wrap {
+
+	width: 620px;
+	margin: auto;
+	color: #fff;
+
+}
+
+
+.donate {
+
+	padding-top: 10px;
+
+}
+
+.donate a{
+
+	color: #ff5242;
+	font-size: 18px;
+	text-transform: uppercase;
+	text-decoration: none;
+	transition:color .3s, background-color .3s;
+	padding-left: 240px;
+
+}
+
+.donate a:hover{
+
+	color: #fff;
+	text-decoration: none;
+
+}
+
+.banner {
+
+	text-transform: uppercase;
+    font-weight: 500;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3.333rem;
+    line-height: 1.5;
+    font-size: 62px;
+
+}
+
+.user-select {
+
+	padding-bottom: 20px;
+
+}
+
+.form-btn {
+
+	padding-top: 20px;
+	padding-left: 125px;
+
+}
+
+.space {
+
+	padding-left: 30px;
+
+}
+
+.btn-custom {
+
+	background: #ff5242;
+	color: #fff;
+	border-color: #ff5242;
+	width: 150px;
+	border-radius: 3px;
+	transition:color .3s, background-color .3s;
+
+}
+
+.btn-custom:hover {
+
+	color: #ff5242;
+	background: white;
+	border-color: white;
+
+}
+
+.avatar-box>.image {
+
+	border-radius: 50%;
+    border: 3px solid #ff5242;
+    transition: border .3s;
+    cursor: pointer;
+
+}
+
+
+.avatar-box>.image:hover {
+
+	border-radius: 50%;
+    border: 3px solid #fff;
+    transition: border .3s;
+    cursor: pointer;
+
+}
+
+
+/* CONTENT */
+
+.content {
+
+	height: 900px;
+	width: auto;
+	background: #1c1c20;
+	color: #fff;
+	margin-top: -20px;
+	border-bottom: 2px solid #28282e;
+
+}
+
+.freetoplay {
+
+	text-transform: uppercase;
+    font-weight: 500;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3.333rem;
+    line-height: 1.5;
+    font-size: 48px;
+    padding-top: 75px;
+    padding-bottom: 20px;
+    text-align: center;
+
+}
+
+.rotations {
+
+	    display: -webkit-flex;
+    display: flex;
+    margin: auto;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    width: 1220px;
+
+}
+
+.paragraph {
+
+	text-align: center;
+	padding-top: 50px;
+	color: #aaaaaa;
+	font-size: 18px;
+
+}
+
+/* FOOTER */
+
+.copyright {
+
+	text-align: center;
+	padding-top: 20px;
+	color: rgba(221, 221, 221, 0.298039);
+
+}
+
+.social-links {
+
+	padding-left: 25px;
+	margin-bottom: 5px;
+
+}
+
+.footerspace {
+
+	padding-right: 10px;
+
+}
+
+.social-links a{
+
+	color: rgb(170, 170, 170);
+	text-decoration: none;
+	transition: color .3s, background-color .3s;
+
+}
+
+.social-links a:hover{
+
+	color: #fff;
+	text-decoration: none;
+
+}
+
+.links a{
+
+	color: rgba(221, 221, 221, 0.298039);
+	text-decoration: none;
+	transition: color .3s, background-color .3s;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 12px;
+
+}
+
+.links a:hover {
+
+	color: #ff5242;
+
+}
+
